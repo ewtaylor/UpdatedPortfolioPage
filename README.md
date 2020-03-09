@@ -1,4 +1,11 @@
-## Updated Portfolio Page
+Updated Portfolio page for prospective jobs. Proof of ability to learn and be creative. 
+Front end web developer with a passion in web application and creating a responsive and interactive product. 
+
+
+
+
+
+## Updated Portfolio Page Directions**TEMPORARY*****
 
 ### Overview
 
