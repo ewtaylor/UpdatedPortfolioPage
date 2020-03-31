@@ -1,6 +1,6 @@
 <?php
 
-// Replace this with your own email address
+
 $siteOwnersEmail = 'ewtaylor@twc.com';
 
 
