@@ -1,355 +1,141 @@
 <!DOCTYPE html>
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<html>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Erin's Portfolio</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>Erin Taylor</title>
+   
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+    </script>
+  </head>
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-   <link rel="stylesheet" href="css/additonal.css">
+  <body>
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
-</head>
-
-<body>
-
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-            <li><a class="smoothscroll" href="" onClick="window.open('Web dev resume.pdf')">Resume</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Erin Taylor</h1>
-            <h3>I'm a front end web developer creating awesome web applications. <a class="smoothscroll" href="#about">Scroll down</a>
-            to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://github.com/ewtaylor"><i class="fa fa-github icon"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/erin-taylor-66979311/"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img src="images/profilepic.jpg" class="pro-pic">
-
-            <!-- <img class="profile-pic"  src="images/profilepic.jpg" alt="" /> -->
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>Front end web developer with a passion in web application and creating a responsive and interactive product. 
-            
-                While I am not coding I enjoy running, playing tennis, cooking, trying out new restaurants, and hanging out with my friends and family!
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Erin Taylor</span><br>
-                     <span>ewtaylor@twc.com</span><br>
-                     <span><a href="https://www.linkedin.com/in/erin-taylor-66979311/">LinkedIn</a></span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <button onClick="window.open('Web dev resume.pdf')" class="button"><i class="fa fa-download"></i>Download Resume</button>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Work.</h1>
-
-            
+    <div class="background">
       
+      <div class="nav">
+        <a class="a" href="#">HOME</a>
+        <a class="b" href="#">ABOUT ME</a>
+        <a class="c" href="#">PROJECTS</a>
+        <a class="d" href="#">CONTACT ME</a>
+        <a class="e" href="" onClick="window.open('Web dev resume.pdf')">RESUME</a>
+      </div>
+      <div class="content">
+      	<div class="home">
+      		<h1>Erin Taylor</h1>
+      		<h3>Front End Web Developer</h3>
+      	</div>
+      </div>
+      <div class="aboutme">
+      
+        <p>Front end web developer with a passion in web application and</P>
+          <p> creating a responsive and interactive product.</p> 
+          <!-- <p>While I am not coding I enjoy running, playing tennis, cooking, trying out new restaurants, </p>
+          <p>and hanging out with my friends and family!</p> -->
 
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
+		<div>
+			<img src="images/profilepic.jpg" class="pro-pic">
+		</div>
+	 </div>
 
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/cartier.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Trivia Game</h4>
-			      <p></p>
-               <span class="categories"><i class="fa fa-tag"></i>jQuery Assignment</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/ewtaylor/unit-4-game.git" target="_blank">Link</a>
-               <a class="mCodeLink" href="https://ewtaylor.github.io/unit-4-game/" target="_blank">Code</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/colin-firth.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Friend Finder</h4>
-			      <p></p>
-               <span class="categories"><i class="fa fa-tag"></i>Node and Express Servers</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://friendfinder2020a.herokuapp.com/" target="_blank">Link</a>
-               <a class="mCodeLink" href="https://ewtaylor.github.io/friendfinder/" target="_blank">Code</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/m-travel.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Trivia Game</h4>
-			      <p></p>
-               <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
-		      </div>
-
-            <div class="link-box">
-                <a class="mCodeLink" href="https://github.com/ewtaylor/TriviaGame.git" target="_blank">Code</a> -->
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/m-burger.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Create a Burger</h4>
-			      <p></p>
-               <span class="categories"><i class="fa fa-tag"></i>Showcase of mySQL usage and node.js</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://burger2020a.herokuapp.com/" target="_blank">Link</a>
-               <a class="mCodeLink" href="https://github.com/ewtaylor/burger.git" target="_blank">Code</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/m-click.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Clicky Game</h4>
-			      <p> </p>
-               <span class="categories"><i class="fa fa-tag"></i>React</span>
-		      </div>
-
-            <div class="link-box">
-              
-               <a class="mCodeLink" href="https://ewtaylor.github.io/TheClickyGame/" target="_blank">Code</a> -->
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modal/image.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Project 2</h4>
-			      <p>Pixr</p>
-               <span class="categories"><i class="fa fa-tag"></i>React</span>
-		      </div>
-
-            <div class="link-box">
-               <a href=" https://enigmatic-badlands-02988.herokuapp.com/" target="_blank">Link</a>
-               <!-- <a class="mCodeLink" href="https://github.com/ewtaylor/burger.git" target="_blank">Code</a> -->
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-      </div> <!-- row End -->
-
-   </section> Portfolio Section End --> -->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="15" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="15" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject<span class="required">*</span></label>
-						   <input type="text" value="" size="15" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning">Error</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
+      <div class="projects">
+        <div class="row">
+          <h1 class="proj-head">   My Work! </h1>
+        </div>
+        <div class="image">
+          <a href="https://github.com/ewtaylor"><img style="width: 150px; height: 100px;" src="images/github-128.png" class="social" alt="GitHub" /></a>
+          <h3>GitHub</h3>
+        </div>
+        <div class="image">
+          <a href="https://ewtaylor.github.io/unit-4-game/"><img style="width: 150px; height: 100px;" src="images/cartier.jpg" /></a>
+          <h3>Trivia Game (jQuery)</h3>
+        </div>
+        <div class="image">
+          <a href="https://ewtaylor.github.io/friendfinder/"><img style="width: 150px; height: 100px;" src="images/colin-firth.jpg"/></a>
+          <h3>Friend Finder (Node/Express)</h3>
+        </div>
+        <div class="image">
+          <a href="https://ewtaylor.github.io/TheClickyGame/"><img style="width: 150px; height: 100px;" src="images/m-click.jpg"/></a>
+          <h3>Clicky Game (React)</h3>
+        </div>
+        <div class="image">
+          <a href="https://enigmatic-badlands-02988.herokuapp.com/"><img style="width: 150px; height: 100px;" src="images/image.jpg"/></a>
+          <h3>Project 2: Pixr (React)</h3>
+        </div>
+        <div class="image">
+          <a href="https://burger2020a.herokuapp.com/"><img style="width: 150px; height: 100px;" src="images/m-burger.jpg"/></a>
+          <h3>Create A Burger (mySQL/Node)</h3>
+        </div>
       </div>
 
-   </section> <!-- Contact Section End-->
 
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://github.com/ewtaylor"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/erin-taylor-66979311/"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+      <div class="contactme">
+      		<div class="row">
+      			<h1 class="connect">Let's connect!</h1><br>
+      		</div>
+      		<div class="row">	
+                <a href="mailto:ewtaylor@twc.com" class="fa fa-yahoo"></a>
+               <a href="https://www.linkedin.com/in/erin-taylor-66979311/" class="fa fa-linkedin"></a>
+                <a href="mailto:ewtaylor29@gmail.com" class="fa fa-google"></a>
+                
+      	</div>
+      	
       </div>
+</div>
 
-   </footer> <!-- Footer End-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(this).click(function() {
+          var selected = $(this);
+          $(this).removeClass('active');
+          $(selected).addClass('active');
+        });
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        var $a = $('.a');
+          $b = $('.b');
+          $c = $('.c');
+          $d = $('.d');
+          $home = $('.home');
+          $aboutme = $('.aboutme');
+          $projects = $('.projects');
+          $contactme = $('.contactme');
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+        $a.click(function() {
+          $home.fadeIn();
+          $aboutme.fadeOut();
+          $projects.fadeOut();
+          $contactme.fadeOut();
+        });
+        $b.click(function() {
+          $aboutme.fadeIn();
+          $projects.fadeOut();
+          $contactme.fadeOut();
+          $home.fadeOut();
+        });
+        $c.click(function() {
+          $projects.fadeIn();
+          $home.fadeOut();
+          $aboutme.fadeOut();
+          $contactme.fadeOut();
+        });
+        $d.click(function() {
+          $contactme.fadeIn();
+          $home.fadeOut();
+          $projects.fadeOut();
+          $aboutme.fadeOut();
 
-</body>
+        });
+
+      });
+
+    </script>
+  </body>
 
 </html>
